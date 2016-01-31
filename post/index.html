@@ -1,57 +1,60 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-<meta charset="utf-8">
-<meta name="generator" content="Hugo 0.15" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/skeleton.css">
-<link rel="stylesheet" href="/css/custom.css">
-<link rel="alternate" href="/index.xml" type="application/rss+xml" title="extend Base">
-<title>Posts - extend Base</title>
-</head>
-<body>
-
 <div class="container">
+<header class="header">
 
-	<header role="banner">
-		<div class="header-logo">
-			<a href="/"><img src="/images/logo.png" width="60" height="60"></a>
-		</div>
-		
-	</header>
-
-
-	<main role="main">
-		<h1 class="list-title">Posts</h1>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/post/first/">first</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2016-01-31">January 31, 2016</time></span>
-		</article>
-
-	</main>
+  <div>
+    <a href="/">
+      <img src="/images/logo.png" width="80" class="logo">
+    </a>
+  </div>
+  <a href="" class="menu-opener" id="menu-opener">
+    <i class="fa fa-bars"></i>
+  </a>
+</header>
 
 
-	<footer role="contentinfo">
-		<div class="hr"></div>
-		<div class="footer-link">
-			
-			<a href="https://twitter.com/extend_base" target="_blank">Twitter</a></span>
-			
-			
-		</div>
-		<div class="copyright">Copyright &copy; extend Base All rights reserved.</div>
-	</footer>
+  <main class="ui text container" role="main">
+  
+    <article itemscope itemtype="http://schema.org/Blog">
+      <h1 class="ui header dividing" itemprop="headline">
+        <a href="/post/first/">
+          first
+        </a>
+      </h1>
+      <span class="entry-meta">
+        <time itemprop="datePublished" datetime="2016-01-31">
+          January 31, 2016
+        </time>
+      </span>
+    </article>
+  
+  </main>
 
+
+<div class="ui black inverted vertical footer segment">
+  <div class="ui center aligned container">
+    <ul class="socials">
+      <li>
+        <a href="https://twitter.com/extend_base" rel="nofollow" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    </ul>
+    <div class="ui inverted section divider"></div>
+    <img src="assets/images/logo.png" class="ui centered mini image">
+    <div class="ui horizontal inverted small divided link list">
+      <a class="item" href="http://extend-base.github.io" target="_blank">&copy; extend Base All rights reserved.</a>
+    </div>
+  </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="semantic/dist/semantic.js"></script>
+<script src="assets/javascripts/main.js"></script>
 
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
-</body>
-</html>
+
+
+
+</div>
